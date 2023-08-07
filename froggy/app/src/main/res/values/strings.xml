@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Froggy</string>
+    <string name="login_userId">이메일</string>
+    <string name="login_userPw">비밀번호</string>
+    <string name="login_btn">로그인</string>
+    <string name="empty_search">키워드를 입력해주세요.</string>
+</resources>
