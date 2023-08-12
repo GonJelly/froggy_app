@@ -48,7 +48,7 @@ dependencies {
 
     implementation 'androidx.core:core-ktx:1.8.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'com.google.android.material:material:1.9.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
@@ -56,7 +56,7 @@ dependencies {
 
     // Choose one of the following:
     // Material Design 3
-    implementation 'androidx.compose.material3:material3-android:1.1.0-beta02'
+    implementation 'androidx.compose.material3:material3-android:1.2.0-alpha05'
     // or Material Design 2
     implementation 'androidx.compose.material:material'
     // 또는 Material Design을 건너뛰고 기초 구성 요소를 직접 빌드하십시오.
@@ -79,6 +79,6 @@ dependencies {
     // 선택 사항 - 창 크기 유틸리티 추가
     implementation 'androidx.compose.material3:material3-window-size-class'
     // 선택 사항 - 활동 통합
-    implementation 'androidx.activity:activity-compose:1.7.1'
+    implementation 'androidx.activity:activity-compose:1.7.2'
 
 }
