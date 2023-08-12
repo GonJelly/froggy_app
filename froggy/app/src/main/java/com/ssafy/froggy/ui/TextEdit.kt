@@ -36,7 +36,7 @@ import androidx.compose.ui.unit.sp
 
 @Preview(showBackground = true)
 @Composable
-fun loginForm() {
+fun LoginForm() {
 
     var email by remember { mutableStateOf("") }
     var password by remember { mutableStateOf("") }
