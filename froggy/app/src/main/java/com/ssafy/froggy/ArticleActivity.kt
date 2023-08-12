@@ -27,14 +27,6 @@ class ArticleActivity : AppCompatActivity() {
 fun ArticleScreen() {
 
     Scaffold(
-        topBar = {
-                 TopAppBar(
-                     modifier = Modifier.align(Alignment.CenterVertically),
-                     title = {
-                        Text(text = "Froggy")
-                     }
-                 )
-        },
         content = { innerPadding ->
             Column(
                 modifier = Modifier.padding(innerPadding)
